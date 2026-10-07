@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+
+# Local data, downloaded files, generated indexes, and databases
+data/
+cred/
+
+# Python caches and local tooling files
+__pycache__/
+.pytest_cache/
+*.log
+project_code.txt
+project_code.md
+
+# Local secrets and private key material
+*.pem
+*.key
+credentials*.json
+*credentials*
